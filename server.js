@@ -1,9 +1,9 @@
-const express = require('express');
-const morgan = require('morgan');
+const express = require("express");
+const morgan = require("morgan");
 
 const app = express();
 
-app.use(morgan('common'));
+app.use(morgan("common"));
 app.use(express.json());
 
 // you need to import `blogPostsRouter` router and route
